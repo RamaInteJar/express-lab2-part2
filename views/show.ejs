@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pass It Around</title>
+</head>
+<body>
+  <h1><%= bottles %> Bottles of beer on the wall</h1>
+  <% if (bottles > 0) { %>
+    <a href="/<%= bottles - 1 %>">Take one down, pass it around</a>
+  <% } %>
+  <br>
+  <a href="/">Start Over</a>
+</body>
+</html>
